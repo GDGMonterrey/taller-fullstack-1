@@ -19,5 +19,8 @@
 			</nav>
 		</header>
 		<h1> {{ hc.message }} </h1>
+		<div ng-repeat="pokemon in hc.pokemons">
+			<h3>{{ pokemon.name }}</h3>
+		</div>
 	</body>
 </html>
